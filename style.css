@@ -1,0 +1,1330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+  
+  /* box1 */
+
+.nav-logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logoo{
+    height: 90%;
+    width: 100%;
+    background-image: url(amazon_1-removebg-preview.png);
+    background-size: cover;
+}
+
+
+.border{
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+
+.border:hover{
+    border: 1.3px solid white;
+    border-radius: 2px;
+}
+
+
+  /* box 2 */
+
+.nav-map{
+    height: 50px;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navmap-child{
+    height: 35px;
+}
+
+#navmap-logo{
+   display: flex;
+   align-items: center;
+   
+}
+
+.address-first{
+    color: #cccccc;
+    font-size: 0.70rem;
+    margin-left: 15px;
+}
+    
+
+.address-sec{
+    font-size: 0.9rem;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+
+/* box-3 */
+
+.navsearch-bar{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.navsearch-child{
+    width: 95%;
+    height: 38px;
+    border: 2.5px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+.navsearch-child:hover{
+    border: 2.5px solid orange;
+    border-radius: 5.5px;
+}
+
+
+#items{
+    width: 40px;
+    height: 35px;
+    background-color: rgb(237, 228, 228);
+    color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+#items:hover{
+    background-color: rgb(206, 202, 202);
+    color: black;
+}
+
+.searchbar-field{
+    height: 35px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#input-search{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+}
+
+.lens-container{
+    height: 35px;
+    width: 38px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lens{
+    width: 50%;
+    height: 50%; 
+    background-image: url(google-lens-icon-256x256-zhe22v4o.png);
+    background-size: cover;
+    
+}
+
+.magnify-search{
+    height: 35px;
+    width: 40px;
+    background-color: rgba(244, 156, 40, 0.9);
+    color: #0f1111;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.magnify-search:hover{
+    background-color: rgba(240, 136, 4, 1);
+}
+
+
+/* box-4*/
+
+
+
+
+.language-container{
+    width:70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child-language-container{
+    height: 35px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flag{
+    width: 21px;
+    height: 18px;
+    background-image: url(828_americanflag.jpg);
+    background-size: cover;
+}
+
+.EN{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#arrow{
+    color: grey;
+    display: flex;
+    align-items: bottom;
+    font-size: 0.8rem;
+    padding: 3px;
+}
+
+ /* box5 */
+
+.nav-signin{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-signin{
+    width: 100%;
+    height: 40px;
+}
+
+.sec-row{
+    width: 100%;
+    display: flex;
+}
+
+.first-line{
+    width: 80%;
+    font-size: 12px;
+    
+}
+
+.second-line{
+    font-size: 0.87rem;
+    font-weight: bold;
+}
+
+
+/* box-6 */
+.returns-container{
+    height: 50px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-return-container{
+    width: 90%;
+    height: 40px;
+}
+
+.first{
+    font-size: 12px;
+}
+
+.sec{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* box7 */
+.nav-cart{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.cart-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+.cart-para{
+    height: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+/* panel-2 */
+.panel-2{
+    height: 40px;
+    background-color: #0f1f2c;
+    color: white;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hamburger-menu-container{
+    color: white;
+    height: 38px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.menu-All{
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.panel-options{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.opt-1{
+    height: 38px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+.opt-2{
+    height: 38px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt-3{
+    height: 38px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt-4{
+    height: 38px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt-5{
+    height: 38px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*main/hero-section*/
+
+main{
+    background-color: rgb(214, 209, 209);
+}
+
+.hero-section{
+    height: 290px;
+    width: 100%;
+    background-image: url(image_main.jpg);
+    background-size: cover;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-msg{
+    position: relative;
+    top: 230px;
+    height: 14%;
+    width: 95%;
+    font-size: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-msg a{
+    color: #007185;
+}
+
+.main-msg a:hover{
+    text-decoration: underline rgba(255, 0, 0, 0.5);
+    color: red;
+}
+
+
+/* content-part */
+.content-layout{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+
+.cart-box{
+    height: 400px;
+    width: 23%;
+    /* border: 1px solid black; */
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+}
+
+hr{
+    height: 30px;
+}
+
+/* cart1 */
+.cart-box h2{
+    font-size: 21px;
+    margin-left: 15px;
+}
+
+.upper-layer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dining{
+    height: 130px;
+    width: 130px;
+    background-image: url(dining.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+#dining p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#Home{
+    height: 130px;
+    width: 130px;
+    background-image: url(home.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#Home p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+.lower-layer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Kitchen{
+    height: 130px;
+    width: 130px;
+    background-image: url(kitchen.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#Kitchen p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#Health{
+    height: 130px;
+    width: 130px;
+    background-image: url(health.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#Health p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+.info{
+    color: #007185;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.info:hover{
+    color: red;
+}
+
+
+/* cart2 */
+.computer{
+    background-image: url(pc.jpg);
+    background-size: cover;
+    height: 280px;
+    width: 90%;
+    margin: 15px;
+}
+
+/* cart3 */
+#headset{
+    height: 130px;
+    width: 130px;
+    background-image: url(headsets.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#headset p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+
+#keyboard{
+    height: 130px;
+    width: 130px;
+    background-image: url(keyboard.jpg);
+    background-size: covers;
+    margin: 10px;
+
+}
+
+#keyboard p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#mouse{
+    height: 130px;
+    width: 130px;
+    background-image: url(mouse.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#mouse p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#chair{
+    height: 130px;
+    width: 130px;
+    background-image: url(chairs.jpg);
+    background-size: covers;
+    margin: 10px;
+
+}
+
+#chair p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+/* cart4 */
+#smartphone{
+    background-image: url(smartphone.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 90%;
+}
+
+#smartphone p{
+    font-size: 15px;
+    position: relative;
+    top: 204px;
+}
+
+.fourth-cart{
+    position: relative;
+    top: 15px;
+    height: 92px;
+}
+
+#tablets{
+    background-image: url(tablet.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 84px;
+    margin: 10px 0px 10px 10px;
+}
+
+#tablets p{
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+}
+
+#Laptop{
+    background-image: url(laptops4.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 84px;
+    margin: 10px 0px 10px 0px;
+}
+
+#Laptop p{
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+}
+
+#Tv{
+    background-image: url(Tvs.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 84px;
+    margin: 10px 10px 10px 0px;
+}
+
+#Tv p{
+    
+    font-size: 15px;
+    position: relative;
+    top: 70px;
+}
+
+
+
+/* content layout part2 */
+
+/* cart5 */
+#headphone{
+    height: 130px;
+    width: 130px;
+    background-image: url(headfone.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+#headphone p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#guitar{
+    height: 130px;
+    width: 130px;
+    background-image: url(guitar.jpg);
+    background-size: covers;
+    margin: 10px;
+}
+
+#guitar p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#piano{
+    height: 130px;
+    width: 130px;
+    background-image: url(piano.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+#piano p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#microphone{
+    height: 130px;
+    width: 130px;
+    background-image: url(microphone.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+#microphone p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+/* cart6 */
+#basket-joy{
+    height: 70%;
+    background-image: url(basket-joy.jpg);
+    background-size: cover;
+    margin: 15px;
+}
+
+/* cart7 */
+#womens-fashion{
+    height: 70%;
+    background-image: url(women-fashion.jpg);
+    background-size: cover;
+    margin: 15px;
+}
+
+/* cart8 */
+#dresses{
+    height: 130px;
+    width: 130px;
+    background-image: url(dresses.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+#dresses p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+
+#knits{
+    height: 130px;
+    width: 130px;
+    background-image: url(knits.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+#knits p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+
+}
+
+#jackets{
+    height: 130px;
+    width: 130px;
+    background-image: url(jackets.jpg);
+    background-size: cover;
+    margin: 10px;
+}
+
+#jackets p {
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+}
+#jewelry{
+    height: 130px;
+    width: 130px;
+    background-image: url(jewelry.jpg);
+    background-size: cover;
+    margin: 10px;
+
+}
+#jewelry p{
+    font-size: 12px;
+    position: relative;
+    top: 132px;
+
+}
+
+/* sports-outdoor section */
+.sports-outdoor{
+    height: 350px;
+    margin: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+}
+
+.sports-outdoor h2{
+    position: relative;
+    top: 10px;
+    font-size: 21px;
+}
+
+.sport-container{
+    position: relative;
+    top: 30px;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dumbbell {
+    height: 85%;
+    width: 20%;
+    background-image: url(dumbul.jpg);
+    background-size: cover;
+}
+
+.roller-foam{
+    height: 37%;
+    width: 20%;
+    background-image: url(round-foam.jpg);
+    background-size: cover;
+}
+
+.yoga-mat{
+    height: 53%;
+    width: 20%;
+    background-image: url(yoga-mat.jpg);
+    background-size: cover;
+}
+
+.resistance-band{
+    height: 100%;
+    width: 20%;
+    background-image: url(resistance-band.jpg);
+    background-size: cover;
+
+}
+
+.air-mattress{
+    height: 100%;
+    width: 20%;
+    background-image: url(air-mattress.jpg);
+    background-size: cover;
+}
+
+
+/* vedio games section */
+.vedio-games{
+    height: 350px;
+    margin: 0px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+}
+
+.vedio-games h2{
+    position: relative;
+    top: 10px;
+    font-size: 21px;
+}
+
+.vedio-games-conatianer{    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+    height: 270px;
+
+
+}
+.book-1 {
+    height: 90%;
+    width: 15%;
+    background-image: url(book1.jpg);
+    background-size: cover;
+}
+
+.ps5{
+    height: 70%;
+    width: 10%;
+    background-image: url(ps5.jpg);
+    background-size: cover;
+}
+
+.apple-vision{
+    height: 100%;
+    width: 18%;
+    background-image: url(apple-vision.jpg);
+    background-size: cover;
+}
+
+.vedio-game{
+    height: 80%;
+    width: 26%;
+    background-image: url(vedio-game.jpg);
+    background-size: cover;
+
+}
+
+.book-2{
+    height: 100%;
+    width: 18%;
+    background-image: url(book2.jpg);
+    background-size: cover;
+}
+
+.remote{
+    height: 100%;
+    width: 20%;
+    background-image: url(remote.jpg);
+    background-size: cover;
+}
+
+
+
+/* customer viewed items */
+.customer-viewed-items{
+    height: 700px;
+    background-color: white;
+    padding: 0px 20px 0px 20px;
+}
+
+.customer-viewed-items hr{
+    height: 0px;
+    position: relative;
+    top: 50px;
+
+}
+
+.customer-viewed-items-container{
+    position: relative;
+    top: 50px;
+    height: 93%;
+    padding: 10px;
+    /* border: 1px solid black; */
+   
+}
+
+.customer-viewed-items-container h2{
+    font-size: 18px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    height: 65%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 20px;
+}
+
+.item1{
+    /* border: 1px solid black; */
+    width: 17%;
+    height: 100%;
+}
+.item1 #contain{
+    background-image: url(item1.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 85%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 7.5%;
+}
+
+
+.item2{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 17%;
+}
+.item2 #contain{
+    width: 85%;
+    background-image: url(item2.jpg);
+    background-size: cover;
+    height: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 7.5%;
+}
+
+
+.item3{
+    /* border: 1px solid black; */
+    width: 17%;
+    height: 100%;
+}
+.item3 #contain{
+    width: 90%;
+    background-image: url(item3.jpg);
+    background-size: cover;
+    height: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 5%;
+}
+
+
+.item4{
+    /* border: 1px solid black; */
+    width: 17%;
+    height: 100%;
+}
+.item4 #contain{
+    width: 85%;
+    background-image: url(item4.jpg);
+    background-size: cover;
+    height: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 7.5%;
+}
+
+
+.item5{
+    /* border: 1px solid black; */
+    width: 17%;
+    height: 100%;
+}
+.item5 #contain{
+    width: 80%;
+    background-image: url(item5.jpg);
+    background-size: cover;
+    height: 50%;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 10%;
+}
+
+#description{
+    position: relative;
+    top: 10px;
+    height: 47%;
+    width: 95%;
+    position: relative;
+    left: 5%;
+}
+
+#description a{
+    color: #007185;
+    font-size: 0.85rem;
+}
+
+#description a:hover{
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#rating{
+    color: #f08804;
+}
+
+#extra-charge{
+    font-size: 12px;
+}
+
+#price{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.item3 #amazon-choice{
+    position: relative;
+    top: 3px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    color: white;
+    height: 20px;
+    background-color: #0f1111;
+}
+
+.item3 #choice{
+    color: #f08804;
+}
+
+.item3 #price{
+    position: relative;
+    top: 8px;
+}
+
+.item3 #extra-charge{
+    position: relative;
+    top: 8px;
+}
+
+
+.blank{
+    height: 10%;
+}
+
+.signin-box{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 10px;
+}
+
+.signin-container{
+    width: 250px;
+}
+
+.signin-box #para1{
+    font-size: 13px;
+    text-align: center;
+}
+
+.signin-box #para2{
+    font-size: 11px;
+    text-align: center;
+}
+
+.signin-container a{
+    color: #007185;
+}
+
+.signin-container a:hover{
+    color: rgba(255, 0, 0, 0.7);
+}
+
+#signin-button{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(240,136,4, 0.8);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+
+/* footer */
+footer {
+    color: white;
+}
+
+ul a{
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+}
+
+
+.panel2 p{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+ul a:hover{
+    text-decoration: 1px underline;
+}
+
+.panel1{
+    font-size: 0.85rem;
+    padding: 15px 0px 15px 0px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+}
+.panel1 a{
+    color: white;
+}
+
+/*panel2*/
+.panel2{
+    background-color: #222f3d;
+    height: 350px; 
+}
+
+.informations{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+
+footer hr{
+    height: 0px;
+}
+
+/*panel3*/
+.panel3{
+    border-top:0.5px solid whitesmoke;
+    background-color: #222f3d ;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-container{
+    width: 55%;
+    height: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 18%;
+    height: 80%;
+    background-image: url(amazon_1-removebg-preview.png);
+    background-size: cover;
+}
+
+.inner-panel-container{
+    display: flex;
+    width: 62%;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+    right: 0px;
+}
+
+#i{
+    font-size: 0.85rem;
+    width: 26%;
+    height: 60%;
+    border: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2px;
+}
+
+#i p{
+    margin: 0px 8px 0px 0px;
+}
+
+
+#ii{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    width: 36%;
+    height: 60%;
+    border: 1px solid wheat;
+    padding-left: 8px;
+    border-radius: 2px;
+}
+
+#ii p{
+    padding-left: 10px ;
+}
+
+
+#iii{
+    width: 35%;
+    height: 60%;
+    font-size: 0.85rem;
+    border: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+#iii #flag{
+    background-image: url(828_americanflag.jpg);
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+    margin: 0px 8px 0px 8px;
+}
+
+/* panel4 */
+.panel4{
+    height: 500px;
+    background-color: rgb(6,13,14);
+    display: flex;
+    justify-content: center;
+}
+
+.panel4-container{
+    font-size: 0.8rem;
+    height: 90%;
+    width: 85%;
+    position: relative;
+    top: 30px;
+    padding: 0px 50px 0px 50px;
+    display: inline-block;
+}
+
+.panel4 a{ 
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.panel4 a:hover{
+    text-decoration: 1px underline rgba(255, 255, 255, 0.7);
+}
+
+.panel4 span{
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#spaces{
+    width: 5%;
+}
+
+
+/* panel5 */
+.panel5{
+    font-size: 0.8rem;
+    height: 90px;
+    background-color: rgb(6,13,14);
+    text-align: center;
+    
+}
+
+.panel5 a{
+    color: white;
+}
+
+.panel5 a:hover{
+    text-decoration: 1px white underline;
+}
+
+.conditions{
+    padding: 20px 0px 5px 0px;
+}
